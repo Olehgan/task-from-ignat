@@ -1,0 +1,54 @@
+.someClass {
+
+}
+
+.greeting {
+    display: flex;
+    align-items: flex-start;
+}
+
+.input {
+    margin: 10px;
+    background: #61dafb;
+    color: #282c34;
+}
+
+.error {
+    border: 1px solid azure;
+    margin:5px;
+    color: red;
+}
+
+.errorInput {
+    margin: 10px;
+
+    background: black;
+    color: #bbffbb;
+
+    border: 2px solid red;
+    outline: none;
+}
+
+.button {
+    margin: 10px;
+    width: 60px;
+
+    background: #bbffbb;
+    color: #cdbbff;
+    outline: none;
+}
+
+.button:active{
+    background: #61dafb;
+}
+.button:disabled{
+   color:#005500;
+}
+.count{
+    margin: 10px;
+}
+
+
+
+
+
