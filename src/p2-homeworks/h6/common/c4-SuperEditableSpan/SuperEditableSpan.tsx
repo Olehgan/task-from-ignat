@@ -48,7 +48,8 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
 
     const spanClassName = `${'сделать красивый стиль для спана'} ${className}`
 
-    return <>
+    return (
+        <>
             {editMode
                 ? (
                     <SuperInputText
@@ -71,7 +72,7 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                 )
             }
         </>
-
+    )
 }
 
 export default SuperEditableSpan

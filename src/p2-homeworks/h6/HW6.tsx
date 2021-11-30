@@ -13,7 +13,8 @@ function HW6() {
          setValue(restoreState<string>('editable-span-value',''))
     }
 
-    return <div>
+    return (
+        <div>
             <hr/>
             homeworks 6
 
@@ -33,7 +34,7 @@ function HW6() {
             {/*<AlternativeSuperEditableSpan/>*/}
             <hr/>
         </div>
-
+    )
 }
 
 export default HW6
